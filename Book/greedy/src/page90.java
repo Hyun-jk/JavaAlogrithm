@@ -2,7 +2,7 @@ public class page90 {
 
     public static void main(String[] args){
         int n = 1260;
-        int count = 0;
+        double count = 0;
 
         int[] coin_types = {500, 100, 50, 10};
 
@@ -10,7 +10,6 @@ public class page90 {
             count += n / coin_types[i];
             n %= coin_types[i];
         }
-
         System.out.println(count);
 
 
