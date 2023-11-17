@@ -50,7 +50,7 @@ public class page92 {
 
             int countFirst = ( m / (k +1)) * k + (m % (k + 1 ));
 
-            int result = countFirst * first + (m - countFirst) * second;,
+            int result = countFirst * first + (m - countFirst) * second;
 
             System.out.println(result);
 
