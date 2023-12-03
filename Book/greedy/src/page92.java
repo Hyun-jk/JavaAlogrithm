@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class page92 {
+public class Page92 {
 
     public static void usingScanner(){
         Scanner scanner = new Scanner(System.in);

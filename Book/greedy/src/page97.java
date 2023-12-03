@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class page97 {
+public class Page97 {
 
     public static void main(String[] args) throws IOException {
         /*

@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class page149 {
+public class Page149 {
 
     public static int N,M;
     public static int[][] graph = new int[1000][1000];

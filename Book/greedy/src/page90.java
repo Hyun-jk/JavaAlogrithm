@@ -1,4 +1,4 @@
-public class page90 {
+public class Page90 {
 
     public static void main(String[] args){
         int n = 1260;

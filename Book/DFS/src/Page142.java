@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class page142 {
+public class Page142 {
     public static boolean[] visited = new boolean[9];
     public static ArrayList<ArrayList<Integer>> graph = new ArrayList<ArrayList<Integer>>();
 
