@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class HashMap_02 {
 
-    public String solution(String str1, String str2) {
+    public static String solution(String str1, String str2) {
         HashMap<Character, Integer> map = new HashMap<>();
 
         for (int i = 0; i < str1.length(); i++) {
@@ -27,8 +27,7 @@ public class HashMap_02 {
         String str1 = sc.next();
         String str2 = sc.next();
         
-        HashMap_02 hm02 = new HashMap_02();
-        System.out.println("hm02.solution(str1,str2) = " + hm02.solution(str1,str2));
+        System.out.println("hm02.solution(str1,str2) = " + solution(str1,str2));
         
         
     }
