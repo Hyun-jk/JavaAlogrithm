@@ -1,6 +1,5 @@
 package twoPointers_SlidingWindow;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -30,9 +29,7 @@ public class SlidingWindow_01 {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
-        
-        
+
         SlidingWindow_01 sw01 = new SlidingWindow_01();
         System.out.println("answer = " + sw01.solution(n,k,arr));
 
